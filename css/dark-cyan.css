@@ -1,0 +1,242 @@
+/*====SLIDER CONTAINER
+=======================================================*/
+
+#slider-block {
+	height: 700px;	
+}
+
+.container-slider {
+   width: 100% !important;
+   position: relative;
+   padding: 0;
+   max-height: 640px !important;  /*  480 Same value as in OPTIONS the startheight parameter  */
+   overflow: hidden;
+   margin-bottom: 40px;
+}
+
+
+/*====REVOLUTION SLIDER
+=======================================================*/
+
+.tp-rightarrow, .tp-leftarrow {
+	display: block;
+	float: left;
+	width: 48px;
+	height: 48px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 48px;
+	color: #bbb;
+	margin-left: 2px;
+	position: absolute;
+	z-index: 100;
+	cursor: pointer;
+	top: 50%;	
+	margin-top: -24px;	
+	border-radius: 50%;
+	border: 2px solid;
+	-webkit-transition: all linear .2s;
+	-moz-transition: all linear .2s;
+	-o-transition: all linear .2s;
+	-ms-transition: all linear .2s;
+	transition: all linear .2s;
+}
+
+.tp-rightarrow  {
+	right: 24px;	
+}
+
+.tp-rightarrow:before  {
+	content: "\f105";
+	font-family: FontAwesome;
+}
+
+.tp-leftarrow {
+	left: 24px;
+}
+
+.tp-leftarrow:before  {
+	content: "\f104";
+	font-family: FontAwesome;
+}
+
+.tp-rightarrow:hover, .tp-leftarrow:hover {
+	color: #fff;
+	border-color: #1eacce;
+	background: #1eacce;
+} 
+
+/*====REVOLUTION SLIDER LAYER STYLES
+=======================================================*/
+
+.slider-bg-color {
+	background: #122c50;
+}
+.big-title-row span{font-family: 'Roboto-Bold'; font-size: 60px; display: block; padding:4px 0 0 0;}
+.big-title-row {
+	font-size: 73px;
+	line-height: 58px;
+	color: #FFF;
+	text-transform: uppercase;
+	font-weight: 800;
+	text-align: right;
+	font-family: 'Roboto-Light';
+	-webkit-text-stroke: 1px rgba(0, 0, 0, 0.1);
+	text-shadow: 8px 6px 4px rgba(80,80,80,0.86);
+}
+
+
+
+.big-title-description {
+	font-size: 28px;
+	line-height: 32px;
+	font-weight: 300;	
+	color: #4c4c4c;
+	width: 400px;
+	text-align: left;
+}
+
+.primary {background: #122c50; }
+.secondary, .primary:hover {background: #373737;}
+.secondary:hover {background: #757575; }
+
+.slider-bullets {
+	color: #fff;
+}
+
+.slider-bullets i {
+	color: #fff;
+	display: inline-block;
+	float: left;
+	height: 43px;
+	width: 43px;
+	line-height: 43px;;
+	position: relative;
+	text-align: center;
+	font-size: 21px;
+}
+
+.slider-bullets span {
+	display: inline-block;
+	color: #373737;
+	font-size: 14px;
+	line-height: 43px;
+	background: #fff;
+	opacity: 0.8;
+	padding: 0 10px;
+}
+
+/*====FLEX CONTENT SLIDER 
+=======================================================*/
+
+.content-slider .big-title-row {
+	line-height: 56px;
+	margin-top: 70px;
+}
+
+.content-slider {
+	position: relative;
+}
+
+
+/************************************************
+	  - SOME CAPTION MODIFICATION AT START  -
+*************************************************/
+.tp-simpleresponsive .caption,
+.tp-simpleresponsive .tp-caption {
+	/*-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";		-moz-opacity: 0;	-khtml-opacity: 0;	opacity: 0; */
+	position:absolute;visibility: hidden;
+	-webkit-font-smoothing: antialiased !important;
+}
+
+
+.tp-simpleresponsive img	{	max-width:none;}
+
+
+
+
+
+/***************************************
+	-	RESPONSIVE SETTINGS 	-
+****************************************/
+
+
+
+
+    @media only screen and (min-width: 0px) and (max-width: 479px) {
+				.responsive .tp-bullets	{	display:none}
+				.responsive .tparrows	{	display:none;}
+	}
+
+
+
+
+/*********************************************
+
+	-	BASIC SETTINGS FOR THE BANNER	-
+
+***********************************************/
+
+ .tp-simpleresponsive img {
+		-moz-user-select: none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        -o-user-select: none;
+}
+
+
+
+.tp-simpleresponsive a{	text-decoration:none;}
+
+.tp-simpleresponsive ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+.tp-simpleresponsive >ul >li{
+	list-stye:none;
+	position:absolute;
+	visibility:hidden;
+}
+/*  CAPTION SLIDELINK   **/
+.caption.slidelink a div,
+.tp-caption.slidelink a div {	width:3000px; height:1500px;  background:url(../assets/coloredbg.png) repeat;}
+
+.tp-loader 	{	background:url(../assets/loader.gif) no-repeat 10px 10px; background-color:#fff;  margin:-22px -22px; top:50%; left:50%; z-index:10000; position:absolute;width:44px;height:44px;
+				border-radius: 3px;
+				-moz-border-radius: 3px;
+				-webkit-border-radius: 3px;
+			}
+
+
+.tp-transparentimg {	content:"url(../assets/transparent.png)"}
+.tp-3d				{	-webkit-transform-style: preserve-3d;
+						 -webkit-transform-origin: 50% 50%;
+					}
+
+
+
+.tp-caption img {
+background: transparent;
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)";
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);
+zoom: 1;
+}
+
+
+
+.tp-rightarrow, .tp-leftarrow {   color: #FFF;  }
+
+@media (max-width:960px){
+	
+.container-slider .caption p{ font-size:24px; padding:0px 0 0 30px;}
+.big-title-row span{font-family: 'Roboto-Bold'; font-size: 30px;}
+	
+.tp-rightarrow, .tp-leftarrow {    width: 30px;     height: 30px;    line-height: 30px;    color: #FFF;        position: absolute;    z-index: 100;    cursor: pointer;    top: 50%;    margin-top: -24px;}
+
+.tp-leftarrow {margin-left: -20px;}
+.tp-rightarrow{margin-right:-20px;}
+
+
+}
