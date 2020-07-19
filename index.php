@@ -68,22 +68,56 @@
 				<li data-transition="fade" data-slotamount="7">
 
 					<!-- Required Background Image  -->
+					<img src="images/banner-bg-3.jpg" alt="website_design"/>
+
+					<!-- Row 1 text -->
+					<div class="big-title-row caption lfl ltb" data-x="left" data-hoffset="30" data-y="146" data-speed="500" data-start="1200" data-easing="easeInExpo">
+						<p style="font-size: 72%;">Promote your</p>
+					</div>
+
+					<!-- Row 2 text -->
+					<div class="big-title-row caption lfl ltb" data-x="left" data-hoffset="30" data-y="202" data-speed="500" data-start="1700" data-easing="easeInExpo">
+						<p style="font-size: 72%;"><span>Business</span>
+						</p>
+					</div>
+
+					<!-- Row 3 text -->
+					<div class="big-title-row caption lfl ltb" data-x="left" data-hoffset="30" data-y="258" data-speed="500" data-start="2000" data-easing="easeInExpo">
+						<p style="font-size: 36%;">Amid the COVID-19 Pandemic</p>
+					</div>
+
+
+
+					<!-- Description Caption -->
+					<div class="big-title-description caption lfl ltb" data-x="left" data-hoffset="30" data-y="328" data-speed="500" data-start="2600" data-easing="easeInExpo">
+						<!--<p>Our Help Desk is available to <br />you around the clock, 24/7!</p>-->
+					</div>
+
+					<!-- Image Caption -->
+					<div class="caption lfr str" data-x="right" data-hoffset="-30" data-y="30" data-speed="500" data-start="500" data-easing="easeOutExpo"> <img src="images/banner-2.png" alt="Image Description"/> </div>
+				</li>
+				<!-- end Slide 1 -->
+
+				<!-- Slide 2 -->
+				<li data-transition="fade" data-slotamount="7">
+
+					<!-- Required Background Image  -->
 					<img src="images/banner-bg-1.jpg" alt="Image Description"/>
 
 					<!-- Row 2 text -->
 					<div class="big-title-row caption lfl ltb" data-x="left" data-hoffset="30" data-y="146" data-speed="500" data-start="1700" data-easing="easeInExpo">
-						<p style="font-size: 72%;">Information</p>
+						<p style="font-size: 72%;">Create your</p>
 					</div>
 
 					<!-- Row 3 text -->
 					<div class="big-title-row caption lfl ltb" data-x="left" data-hoffset="30" data-y="202" data-speed="500" data-start="2000" data-easing="easeInExpo">
-						<p style="font-size: 72%;"><span>Technology</span>
+						<p style="font-size: 72%;"><span>Website</span>
 						</p>
 					</div>
 
 					<!-- Row 4 text -->
 					<div class="big-title-row caption lfl ltb" data-x="left" data-hoffset="30" data-y="258" data-speed="500" data-start="2300" data-easing="easeInExpo">
-						<p style="font-size: 36%;">Solutions</p>
+						<p style="font-size: 36%;">In this pandemic situation</p>
 					</div>
 
 					<!-- Description Caption -->
@@ -97,40 +131,6 @@
 						</div>
 					</div>
 				</li>
-				<!-- end Slide 1 -->
-
-				<!-- Slide 2 -->
-				<li data-transition="fade" data-slotamount="7">
-
-					<!-- Required Background Image  -->
-					<img src="images/banner-bg-3.jpg" alt="website_design"/>
-
-					<!-- Row 1 text -->
-					<div class="big-title-row caption lfl ltb" data-x="left" data-hoffset="30" data-y="146" data-speed="500" data-start="1200" data-easing="easeInExpo">
-						<p style="font-size: 72%;">Quality</p>
-					</div>
-
-					<!-- Row 2 text -->
-					<div class="big-title-row caption lfl ltb" data-x="left" data-hoffset="30" data-y="202" data-speed="500" data-start="1700" data-easing="easeInExpo">
-						<p style="font-size: 72%;"><span>Delivered</span>
-						</p>
-					</div>
-
-					<!-- Row 3 text -->
-					<div class="big-title-row caption lfl ltb" data-x="left" data-hoffset="30" data-y="258" data-speed="500" data-start="2000" data-easing="easeInExpo">
-						<p style="font-size: 36%;">Without Compromise</p>
-					</div>
-
-
-
-					<!-- Description Caption -->
-					<div class="big-title-description caption lfl ltb" data-x="left" data-hoffset="30" data-y="328" data-speed="500" data-start="2600" data-easing="easeInExpo">
-						<!--<p>Our Help Desk is available to <br />you around the clock, 24/7!</p>-->
-					</div>
-
-					<!-- Image Caption -->
-					<div class="caption lfr str" data-x="right" data-hoffset="-30" data-y="30" data-speed="500" data-start="500" data-easing="easeOutExpo"> <img src="images/banner-2.png" alt="Image Description"/> </div>
-				</li>
 				<!-- end Slide 2 -->
 
 				<!-- Slide 3 -->
@@ -141,18 +141,18 @@
 
 					<!-- Row 1 text -->
 					<div class="big-title-row caption lfl ltb" data-x="left" data-hoffset="30" data-y="146" data-speed="500" data-start="1200" data-easing="easeInExpo">
-						<p style="font-size: 72%;">with Accuracy</p>
+						<p style="font-size: 72%;">Target</p>
 					</div>
 
 					<!-- Row 2 text -->
 					<div class="big-title-row caption lfl ltb" data-x="left" data-hoffset="30" data-y="202" data-speed="500" data-start="1700" data-easing="easeInExpo">
-						<p style="font-size: 72%;"><span>We Build</span>
+						<p style="font-size: 72%;"><span>Customers</span>
 						</p>
 					</div>
 
 					<!-- Row 3 text -->
 					<div class="big-title-row caption lfl ltb" data-x="left" data-hoffset="30" data-y="258" data-speed="500" data-start="2000" data-easing="easeInExpo">
-						<p style="font-size: 36%;">Credibility</p>
+						<p style="font-size: 36%;">Before everyone</p>
 						<br>
 					</div>
 
@@ -175,18 +175,18 @@
 
 					<!-- Row 1 text -->
 					<div class="big-title-row caption lfl ltb" data-x="left" data-hoffset="30" data-y="146" data-speed="500" data-start="1200" data-easing="easeInExpo">
-						<p style="font-size: 72%;">Sourcing right</p>
+						<p style="font-size: 72%;">Be online</p>
 					</div>
 
 					<!-- Row 2 text -->
 					<div class="big-title-row caption lfl ltb" data-x="left" data-hoffset="30" data-y="202" data-speed="500" data-start="1700" data-easing="easeInExpo">
-						<p style="font-size: 72%;"><span>Talent</span>
+						<p style="font-size: 72%;"><span>And</span>
 						</p>
 					</div>
 
 					<!-- Row 3 text -->
 					<div class="big-title-row caption lfl ltb" data-x="left" data-hoffset="30" data-y="258" data-speed="500" data-start="2000" data-easing="easeInExpo">
-						<p style="font-size: 36%;">for the right job</p>
+						<p style="font-size: 36%;">Get Business</p>
 						<br>
 					</div>
 
@@ -213,13 +213,13 @@
 				<div class="col-md-4 blue">
 					<div class="wel-pdng"><span> Welcome to </span>
 						<h1> SRIJA Software Solutions</h1>
-						<p>At S3, we strive to deliver a consistently excellent standard of service and we take pride in everything we do. This has enabled us to retain and grow our client base year on year and a significant... </p>
+						<p>At S3, we have all your online business solutions in one place. Our team can support and help your business stay on track with a variety of resources, tools, and strategies during this trying time. We can help you continue to develop, grow, and adapt your business with the ... </p>
 						<a href="about-srija.php">Read More</a> </div>
 				</div>
 				<div class="col-md-4 white">
 					<div class="off-pdng"> <span>Our</span>
 						<h1> Offering</h1>
-						<p>S3 is an excellent software solution if you need a complete concept of outsourcing services. And we are always going to offer you with quality services focus on cost effective offshore software development. </p>
+						<p>S3 is an excellent software solution if you need a complete concept of outsourcing services. And in this pandemic situation we are always going to offer you with quality services focus on cost effective offshore software development. </p>
 						<a href="our-services.php">Read More</a>
 					</div>
 				</div>
@@ -320,21 +320,17 @@
 					<div class="col-md-12"><span>Our</span>
 						<h1> Services </h1>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-4">
 						<h2>Outsourcing</h2>
 						<p>Our services make it easy for companies of any size and budget to recruiting. As well as working directly with clients, we have extensive experience collaborating with agencies on projects.</p>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-4">
 						<h2>Consulting</h2>
 						<p>We have the ability to respond Our roots in consulting enable us to bring a unique approach to recruitment. Unique challenges of recruiting better talent quicker, more efficiently &amp; for less processes.</p>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-4">
 						<h2>Recruitment</h2>
 						<p>Our bespoke offerings enable our clients to implement and proactive talent acquisition strategies, enhance their recruitment approaches, build recruiter capability and embed change.</p>
-					</div>
-					<div class="col-md-3">
-						<h2>Corporate Training</h2>
-						<p>Srija Software Solutions is committed to helping you fill vacancies with the best candidates and make their transitions from new hires to productive employees as efficient as possible.</p>
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -415,8 +411,8 @@
   </div>
 </div>
 	<!-- // -->
-	<script src="js/bootstrap.min.js"></script>
 	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.liMarquee.js"></script>
 	<script>
 		$( window ).load( function () {

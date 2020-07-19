@@ -1,4 +1,20 @@
+<?php 
+$link = mysqli_connect("localhost","admin_srija","000000","admin_srija");
+if (isset($_POST['submitted'])) {
+  $fname = $_POST['fname'];
+  $lname = $_POST['lname'];
+  $email = $_POST['email'];
+  $mobile = $_POST['mobile'];
+  $message = $_POST['message'];
 
+  $sql = "INSERT INTO CONTACT (`FIRST_NAME`, `LAST_NAME`, `EMAIL_ID`, `PHONE_NUMBER`, `MESSAGE`) VALUES ('$fname', '$lname', '$email', '$mobile', '$message')";
+  $result = mysqli_query($link, $sql);
+  if ($result) {
+    echo '<script>alert("Thank you for contacting us");</script>';
+  }
+
+}
+?>
 
 <!DOCTYPE html>
 
@@ -18,36 +34,7 @@
 <link rel="stylesheet" href="css/responsive-menu.css">
 <script src="js/responsive-menu.js"></script>
 <script type="text/javascript" src="js/validation.js"></script>
-<script type="text/javascript">
 
-//	Validating the form
-
-function validate()
-
-{
-
-		var frm=document.form2;
-		frm.fname.value=trim(frm.fname.value);
-		if(frm.fname.value=="") { alert("Please Enter Frist Name"); frm.fname.focus(); return false; }
-		
-		frm.lname.value=trim(frm.lname.value);
-		if(frm.lname.value=="") { alert("Please Enter Last Name"); frm.lname.focus(); return false; }
-		
-		frm.email.value=trim(frm.email.value);
-		if(frm.email.value=="") { alert("Please enter email"); frm.email.focus(); return false; }
-		if(!validatemail(frm.email,'Please enter valid email')) return false;		
-
-		frm.mobile.value=trim(frm.mobile.value);
-		if(frm.mobile.value=="") { alert("Please Enter Mobile Number"); frm.mobile.focus(); return false; }
-		if(!validatephone(frm.mobile,'Please Enter Valid Mobile number')) return false;
-		
-		
-		frm.description.value=trim(frm.description.value);
-		if(frm.description.value=="") { alert("Please Enter Description "); frm.description.focus(); return false; }
-
-	}
-
-</script>
 </head>
 <body>
 <!-- // -->
@@ -68,11 +55,10 @@ function validate()
                   <li><a href="about-srija.php">About Srija</a></li>
                   <li><a href="our-business.php">Our Business</a></li>
                   <li><a href="our-services.php">Our Services</a></li>
-					<li><a href="our-products.php">Our Products</a></li>
+					        <li><a href="our-products.php">Our Products</a></li>
                   <li><a href="our-customers.php">Our Customers</a></li>
-                  
-<li><a href="testimonials.php">Testimonials</a></li>
-<li><a href="careers.php">Careers</a></li>
+                  <li><a href="testimonials.php">Testimonials</a></li>
+                  <li><a href="careers.php">Careers</a></li>
                   <li class="active"><a href="contact-us.php">Contact Us</a></li>
                 </ul>
               </div>
@@ -108,11 +94,11 @@ function validate()
     
       <h2>Srija Software Solutions</h2>
       <p><strong>Registered Office Address: </strong><br>
-Suite 102,<br>
- 28-42 Olympic House,<br> 
-Ilford, London, <br> 
-United Kingdom, <br> 
-IG1 1BA
+      Suite 102,<br>
+       28-42 Olympic House,<br> 
+      Ilford, London, <br> 
+      United Kingdom, <br> 
+      IG1 1BA
       </p>
       
       <p><strong>Contact  me :</strong> hr@srija.uk</p>
@@ -123,36 +109,37 @@ IG1 1BA
       <p>Email on <strong>hr@srija.uk</strong> or call on: <strong>+44 20 3926 8595</p>
       <div class="row">
       <div class="col-md-12">
-            <form action="contact-us.php" method="post" name="form2" id="form2" onSubmit="return validate();">
-            <div class="col-md-6 form-group"> 
-              <!--<label>First Name</label>-->
-              <input name="fname" type="text" class="form-control" id="fname" placeholder="Enter Frist Name">
+        <div class="alert alert-success" id="successMsg" style="display: none;">Thank you for contacting us. We will get back to you soon</div>
+        <form action="contact-us.php" method="post" name="form2" id="form2">
+          <div class="col-md-6 form-group"> 
+            <!--<label>First Name</label>-->
+            <input name="fname" type="text" class="form-control" id="fname" required placeholder="Enter Frist Name">
+          </div>
+          <div class="col-md-6 form-group"> 
+            <!--<label>Last Name</label>-->
+            <input name="lname" type="text" class="form-control" id="lname" required placeholder="Enter Last Name">
+          </div>
+          <div class="col-md-6 form-group">
+            <input name="email" type="text" class="form-control" id="email" required placeholder="Enter E-Mail ID">
+          </div>
+          <div class="col-md-6 form-group">
+            <input name="mobile" type="number" class="form-control" id="mobile" required placeholder="Enter Mobile Number">
+          </div>
+          <div class="col-md-12" style="padding-bottom:2px;"></div>
+          <div class="col-md-12 form-group">
+           <textarea name="message" rows="2" class="form-control" id="message" required placeholder="How we can Help!"></textarea>
+          </div>
+          <div class="clearfix"></div>
+          
+          <div class="col-md-12 form-group">
+            <label class="control-label" for="singlebutton"></label>
+            <div class="col-md-12">
+              <button id="singlebutton" type="submit" name="singlebutton" class="btn btn-default btn-samll center-block btn-huge"> Submit </button>
             </div>
-            <div class="col-md-6 form-group"> 
-              <!--<label>Last Name</label>-->
-              <input name="lname" type="text" class="form-control" id="lname" placeholder="Enter Last Name">
-            </div>
-            <div class="col-md-6 form-group">
-              <input name="email" type="text" class="form-control" id="email" placeholder="Enter E-Mail ID">
-            </div>
-            <div class="col-md-6 form-group">
-              <input name="mobile" type="text" class="form-control" id="mobile" placeholder="Enter Mobile Number">
-            </div>
-            <div class="col-md-12" style="padding-bottom:2px;"></div>
-            <div class="col-md-12 form-group">
-             <textarea name="description" rows="1" class="form-control" id="description" placeholder="How we can Help!"></textarea>
-            </div>
-            <div class="clearfix"></div>
-            
-            <div class="col-md-12 form-group">
-              <label class="control-label" for="singlebutton"></label>
-              <div class="col-md-12">
-                <button id="singlebutton" name="singlebutton" class="btn btn-default btn-samll center-block btn-huge"> Submit </button>
-              </div>
-              <!-- // --> 
-            </div>
-            <input type="hidden" name="submited" value="submited">
-          </form>
+            <!-- // --> 
+          </div>
+          <input type="hidden" name="submitted" value="submitted">
+        </form>
       
       </div>
       </div>
