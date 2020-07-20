@@ -28,7 +28,7 @@
           <!--<div class="col-md-6 col-md-offset-6 enquiry-bg text-right">
             <p>Enquiries:+44 2033 710 595</p>
           </div>-->
-                    <div class="col-md-12 nav-bg">
+            <div class="col-md-12 nav-bg">
             <div id="nav-auto">
               <div id='cssmenu' >
                 <ul>
