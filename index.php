@@ -39,14 +39,13 @@
               <div id='cssmenu' >
                 <ul>
                   <li class="active"><a href="index.php">Home</a></li>
-                  <li><a href="about-srija.php">About Srija</a></li>
-                  <li><a href="our-business.php">Our Business</a></li>
+                  <li><a href="about-us.php">About Us</a></li>
+                  <li><a href="covid-situation.php">Covid Situation</a></li>
                   <li><a href="our-services.php">Our Services</a></li>
-					<li><a href="our-products.php">Our Products</a></li>
+				  <li><a href="our-products.php">Our Products</a></li>
                   <li><a href="our-customers.php">Our Customers</a></li>
-                  
-<li><a href="testimonials.php">Testimonials</a></li>
-<li><a href="careers.php">Careers</a></li>
+				  <li><a href="testimonials.php">Testimonials</a></li>
+				  <!-- <li><a href="careers.php">Careers</a></li> -->
                   <li><a href="contact-us.php">Contact Us</a></li>
                 </ul>
               </div>
@@ -214,13 +213,13 @@
 					<div class="wel-pdng"><span> Welcome to </span>
 						<h1> SRIJA Software Solutions</h1>
 						<p>At S3, we have all your online business solutions in one place. Our team can support and help your business stay on track with a variety of resources, tools, and strategies during this trying time. We can help you continue to develop, grow, and adapt your business with the ... </p>
-						<a href="about-srija.php">Read More</a> </div>
+						<a href="about-us.php">Read More</a> </div>
 				</div>
 				<div class="col-md-4 white">
-					<div class="off-pdng"> <span>Our</span>
-						<h1> Offering</h1>
-						<p>S3 is an excellent software solution if you need a complete concept of outsourcing services. And in this pandemic situation we are always going to offer you with quality services focus on cost effective offshore software development. </p>
-						<a href="our-services.php">Read More</a>
+					<div class="off-pdng"> <span>Grow</span>
+						<h1>Your Business</h1>
+						<p>The whole world is in a bad phase right now. Businesses are down. Customers are not going to anywhere. So if you are a business owner you would want to take advantage of this situation and spread your business online. For that we have everything ...</p>
+						<a href="covid-situation.php">Read More</a>
 					</div>
 				</div>
 				<div class="col-md-4 white">
@@ -228,7 +227,7 @@
 						<h1>Approach</h1>
 						<p>We aim to make your experience of working with us as enjoyable as possible and have a clear structured process for development projects to ensure you know what to expect.
 </p>
-						<a href="about-srija.php">Read More</a>
+						<a href="about-us.php">Read More</a>
 					</div>
 				</div>
 			</div>
@@ -243,16 +242,15 @@
 					<h1>Featured Jobs</h1>
 				</div>
 				<!-- // -->
-				<div class="col-md-4 center-block">
+				<!-- <div class="col-md-4 center-block">
 					<div class="section-box-seven">
-						<!---->
 						<figure>
 							<h3>Microsoft Technologies</h3>
 							<p>The Microsoft Application Platform is a comprehensive and integrated set of tools and technologies</p>
 						</figure>
 						<img src="images/microsoft.jpg" class="img-responsive"/>
 					</div>
-				</div>
+				</div> -->
 				<!-- // -->
 				<div class="col-md-4 center-block">
 					<div class="section-box-seven">
@@ -265,16 +263,15 @@
 					</div>
 				</div>
 				<!-- // -->
-				<div class="col-md-4 center-block">
+				<!-- <div class="col-md-4 center-block">
 					<div class="section-box-seven">
-						<!---->
 						<figure>
 							<h3>IBM</h3>
 							<p>RPG/400, ILE RPG, RPG/36, COBOL/400, ILE COBOL, COBOL/36, CL, ILE CL, OCL/36, Net.Data, Java, CGIDEV2</p>
 						</figure>
 						<img src="images/ibm.jpg" class="img-responsive"/>
 					</div>
-				</div>
+				</div> -->
 				<!-- // -->
 				<div class="col-md-4 center-block">
 					<div class="section-box-seven">
@@ -298,16 +295,15 @@
 					</div>
 				</div>
 				<!-- // -->
-				<div class="col-md-4 center-block">
+				<!-- <div class="col-md-4 center-block">
 					<div class="section-box-seven">
-						<!---->
 						<figure>
 							<h3>SAP Practice</h3>
 							<p>RPG/400, ILE RPG, RPG/36, COBOL/400, ILE COBOL, COBOL/36, CL, ILE CL, OCL/36, Net.Data, Java, CGIDEV2</p>
 						</figure>
 						<img src="images/sap.jpg" class="img-responsive"/>
 					</div>
-				</div>
+				</div> -->
 				<!-- // -->
 			</div>
 		</div>
@@ -321,16 +317,16 @@
 						<h1> Services </h1>
 					</div>
 					<div class="col-md-4">
-						<h2>Outsourcing</h2>
-						<p>Our services make it easy for companies of any size and budget to recruiting. As well as working directly with clients, we have extensive experience collaborating with agencies on projects.</p>
+						<h2>Website Design</h2>
+						<p>Our <strong> web design services </strong> can be used  to showcase your business. Having a <strong>website </strong>is the only best way to reach customers fast and easily. We design websites according to our clients' requirements.</p>
 					</div>
 					<div class="col-md-4">
-						<h2>Consulting</h2>
-						<p>We have the ability to respond Our roots in consulting enable us to bring a unique approach to recruitment. Unique challenges of recruiting better talent quicker, more efficiently &amp; for less processes.</p>
+						<h2>Web appication Development</h2>
+						<p>Our <strong>web app development services </strong> can be used  to enhance any part of your business &nbsp;by&nbsp;<strong>making back-end  services more efficient </strong>and&nbsp;<strong>front-end services more user-friendly</strong>.</p>
 					</div>
 					<div class="col-md-4">
-						<h2>Recruitment</h2>
-						<p>Our bespoke offerings enable our clients to implement and proactive talent acquisition strategies, enhance their recruitment approaches, build recruiter capability and embed change.</p>
+						<h2>Testing</h2>
+						<p>As a number one provider of full-cycle quality assurance and <strong>application testing </strong> we offer a diversified package of services delivered on different complexity levels with 360° quality.</p>
 					</div>
 					<div class="clearfix"></div>
 				</div>

@@ -33,14 +33,14 @@
               <div id='cssmenu' >
                 <ul>
                   <li><a href="index.php">Home</a></li>
-                  <li class="active"><a href="about-srija.php">About Srija</a></li>
-                  <li><a href="our-business.php">Our Business</a></li>
+                  <li class="active"><a href="about-us.php">About Us</a></li>
+                  <li><a href="covid-situation.php">Covid Situation</a></li>
                   <li><a href="our-services.php">Our Services</a></li>
-					<li><a href="our-products.php">Our Products</a></li>
+					       <li><a href="our-products.php">Our Products</a></li>
                   <li><a href="our-customers.php">Our Customers</a></li>
                   
-<li><a href="testimonials.php">Testimonials</a></li>
-<li><a href="careers.php">Careers</a></li>
+                <li><a href="testimonials.php">Testimonials</a></li>
+                <!-- <li><a href="careers.php">Careers</a></li> -->
                   <li><a href="contact-us.php">Contact Us</a></li>
                 </ul>
               </div>
@@ -61,7 +61,7 @@
         <div class="col-md-6">
           <ul class="breadcrumb pull-right">
             <li><a href="index.php">Home</a></li>
-            <li class="active">About Srija</li>
+            <li class="active">About Us</li>
           </ul>
         </div>
       </div>
@@ -70,28 +70,22 @@
 </div>
 <!-- // -->
 <div class="container minheight">
-  <div class="row">
-    <div class="col-md-5">
-    <h3>About Srija</h3>
-      <h2>Our approach</h2>
-      <p>When we work for you, we  like to think of ourselves as part of your team.<br>
-        <br>
-        We aim to make your  experience of working with us as enjoyable as possible and have a clear  structured process for development projects to ensure you know what to expect.<br>
-        <br>
-        In addition to our current  client list, our team members have gained vital experience across a wide range  of projects for companies including University of Cambridge, Bosch, Philips,  BAE Systems, Disney, Centrica, NBC Universal, Major League Baseball, Norwich  Theatre Royal and Norwich Cathedral, among many other large and small organizations.</p>
-      <h2>Learning, innovating and improving</h2>
-      <p>We  look for creative new solutions to overcome challenges in more efficient and  effective ways. We learn fast, adapt and improve.<br>
-        <br>
-        Learning about new technologies and keeping up-to-date with the industry  enables us to always offer our clients the best solution.<br>
   <br>
-      Our desire to learn and grow also gives us the right outlook when taking on  something new or helping troubleshoot a tricky project – we welcome a challenge  and are proven problem solvers.</p>
-<h2>Outsourcing to Srija</h2>
-      <p>As  well as working directly with clients, we have extensive experience  collaborating with agencies on projects and systems.<br>
-        <br>
-        We take as much care with these projects as we do with our direct clients,  ensuring clear and accurate communication and management of requirements.<br>
-      This  includes all testing and QA to ensure that the requirements have been  delivered.</p>
+  <div class="row">
+    <div class="col-md-12">
+    <h3>About Us</h3>
+      <h2>We are helping small businesses in this pandemic situation</h2>
+      <p>As a small business ourselves, we’re proud to be Alberta’s best app developers. Our clients have long praised our work as we build robust websites and web applications, custom software applications and enterprise software. We support clients from around the world, but we want to call out a special segment of our clients.
+
+      Today, we are focusing on the small businesses we support across world! Small businesses are the backbone of the world economy. We’re here to help small businesses across the province and the country with web development and design so that they can emerge from this lockdown stronger than ever.</p>
+
+      <h2>We are making your web presence as you always wished for</h2>
+      <p>At Srija Software solutions, we have been migrating to a high percentage of remote work for a couple of years, so riding through the COVID-19 crisis has been bearable, and we understand how to keep the communication flowing to customers virtually, even as we emphasize meeting our Bay Area digital marketing clients in person, which has always been a competitive advantage over typical digital marketing firms. So, we will be conducting in more virtual meetings until clients are comfortable meeting in person once again.</p>
+      
+      <h2>We are committed to do whatever we can to help your business Grow</h2>
+      <p>We hope that this information will help you maintain the right forward-thinking mindset as you lead your company through this ever-evolving economic crisis. We also hope it will help you make decisions that protect the health, safety, and welfare of your employees and your customers. <a href="contact-us.php">Contact us to share your thoughts or ply us with questions!</a></p>
 </div>
-    <div class="col-md-7">
+    <div class="col-md-12">
     <div class="col-md-12 whoWeAre">
       <h3>Who We Are</h3>
       <p>At S3, we strive to deliver a consistently excellent standard of   service and we take pride in everything we do. This has enabled us to   retain and grow our client base year on year and a significant   proportion of our growth can be attributed to happy clients recommending   us to their colleagues.
@@ -100,24 +94,17 @@
       <div class="col-md-12 whatWeDo">
       
         <h3>What We Do</h3>
-        <p>Whether we&rsquo;re providing fully managed end-to-end testing, support to   overstretched internal test teams or independent testing for outsourced   development projects, we are here to provide information to help you   make the right decisions.</p>
-        
-        <h2>Mobile Application Testing</h2>
-        <p>Srija Software Solutions, focus on the mobile goes beyond just developing mobile apps.  Mobile Applications testing can be a huge challenge in present market, it needs to be rigorously tested with underlying technology, we strive to bring in our specialized test and domain knowledge to test applications on devices.</p>
-        
-        <h2>Mobile Application Development</h2>
-        <p>We have a strategy to develop a mobile application, that provides an end-to-end enterprise mobility solution and evolves an easy integration to enable access on multiple OS platforms. We follow the high quality standard mobile app of any category.  We have worked with diverse brands, organizations, start-up and individuals to create powerful apps from excellent idea. </p>
+        <p>Whether we&rsquo;re providing fully managed end-to-end testing, support to   overstretched internal test teams or independent testing for outsourced   development projects, we are here to provide information to help you  make the right decisions.</p>
         
         <h2>Web Application Development</h2>
         <p>Our Web applications to help you grow smoothly through challenging and constantly-evolving technological changes from  Microsoft technologies to build dynamic and robust website applications and we analyze the specifics of each organization domain to offer the optimal combination of tools and  methodology.</p>
         
         <h2>Web Application Testing</h2>
         <p>We provide testing services on web application &amp; websites with the support of our years of web application development expertise of software testing services. And we understand the specific hurdles associated with web testing.</p>
-        
-        <h2>Consulting Services</h2>
-        <p>We offers full spectrum of business and technology consulting services to give you practical advice on how to run a better, more profitable business.  Our capability is experience the latest in enterprise technology consulting solutions. </p>
+
       </div>
     </div>
+    
   </div>
 </div>
 <!-- // -->

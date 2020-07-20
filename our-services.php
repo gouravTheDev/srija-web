@@ -33,14 +33,14 @@
               <div id='cssmenu' >
                 <ul>
                   <li><a href="index.php">Home</a></li>
-                  <li><a href="about-srija.php">About Srija</a></li>
-                  <li><a href="our-business.php">Our Business</a></li>
+                  <li><a href="about-us.php">About Us</a></li>
+                  <li><a href="covid-situation.php">Covid Situation</a></li>
                   <li class="active"><a href="our-services.php">Our Services</a></li>
-					<li><a href="our-products.php">Our Products</a></li>
+					         <li><a href="our-products.php">Our Products</a></li>
                   <li><a href="our-customers.php">Our Customers</a></li>
                   
-<li><a href="testimonials.php">Testimonials</a></li>
-<li><a href="careers.php">Careers</a></li>
+                  <li><a href="testimonials.php">Testimonials</a></li>
+                  <!-- <li><a href="careers.php">Careers</a></li> -->
                   <li><a href="contact-us.php">Contact Us</a></li>
                 </ul>
               </div>
@@ -71,10 +71,10 @@
 <!-- // -->
 <div class="container minheight">
   <div class="row">
-    <div class="col-md-8">
+    <div class="col-md-12">
       <h3>Our Services</h3>
-      <h2>Software development services</h2>
-      <p>Our software development services can be used  to enhance any part of your business from&nbsp;<strong>automating existing manual  and paper workflow processes</strong>&nbsp;through to&nbsp;<strong>making back-end  services more efficient </strong>and&nbsp;<strong>front-end services more user-friendly</strong>.</p>
+      <h2>Web development services</h2>
+      <p>Our web development services can be used  to enhance any part of your business from&nbsp;<strong>automating existing manual  and paper workflow processes</strong>&nbsp;through to&nbsp;<strong>making back-end  services more efficient </strong>and&nbsp;<strong>front-end services more user-friendly</strong>.</p>
         <p>
         We have developed our own bespoke content  management system which can be adapted, configured and integrated to work as an  external or internal interface for either customers or staff.</p>
         <p>
@@ -83,13 +83,13 @@
       <p>As a number one provider of full-cycle quality assurance and application testing we offer a diversified package of services delivered on different complexity levels with 360° quality. We combine a well-tailored QA audit process along with innovative tools and methods to provide you with tangible results for your outstanding progress.</p>
       
       </div>
-      <div class="col-md-4" style="border-left:#e2e5ea solid 1px;">
+      <!-- <div class="col-md-4" style="border-left:#e2e5ea solid 1px;">
         <h3>Useful Stuff</h3>
         <p>We build and test apps for all major platforms.</p>
         <div class="col-md-6"><img src="images/android-logo.jpg" alt="Android" class="img-responsive"/></div>
         <div class="col-md-6"><img src="images/ios-logo.jpg" alt="IOS" class="img-responsive"/></div>
         <div class="col-md-8 col-md-offset-2"><img src="images/windows-8-logo.jpg" alt="Windows" class="img-responsive"/></div>
-      </div>
+      </div> -->
       
       <div class="col-md-12">
       
@@ -107,10 +107,10 @@
     <td><strong>Test automation</strong></td>
     <td>We at A1QA know how to avoid unproductive manual routines    and cut development time. Applying test automation we are able to run more    tests in a shorter period of time and provide result-driven consulting. We    combine test automation expertise and technology proficiency to increase    productivity, as well as eliminate transition efforts and associated risks.</td>
   </tr>
-  <tr>
+  <!-- <tr>
     <td><strong>Mobile Testing</strong></td>
     <td>In a highly competitive landscape for mobile applications,    superior quality is everything. With our unique 360° approach we are able to    deliver a number of tests to verify an app runs smoothly under various    conditions. A1QA experts provide comprehensive testing coverage to optimize    your applications and make them compatible with numerous devices.</td>
-  </tr>
+  </tr> -->
   <tr>
     <td><strong>Documentation</strong></td>
     <td>Professional software documentation is an inseparable part    of QA and software testing process. A1QA team is ready to provide you with    various types of clearly structured documents that can be easily adapted to    multiple target audiences and translated into different languages. We can    provide them la carte for the software that is already tested but still    requiring documentation. The documents/white papers created by A1QA specialists    are delivered in different formats and facilitate international distribution    of applications.</td>

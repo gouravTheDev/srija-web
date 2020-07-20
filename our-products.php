@@ -33,14 +33,14 @@
               <div id='cssmenu' >
                 <ul>
                   <li><a href="index.php">Home</a></li>
-                  <li><a href="about-srija.php">About Srija</a></li>
-                  <li><a href="our-business.php">Our Business</a></li>
+                  <li><a href="about-us.php">About Us</a></li>
+                  <li><a href="covid-situation.php">Covid Situation</a></li>
                   <li><a href="our-services.php">Our Services</a></li>
 					<li class="active"><a href="our-products.php">Our Products</a></li>
                   <li><a href="our-customers.php">Our Customers</a></li>
                   
-<li><a href="testimonials.php">Testimonials</a></li>
-<li><a href="careers.php">Careers</a></li>
+					<li><a href="testimonials.php">Testimonials</a></li>
+					<!-- <li><a href="careers.php">Careers</a></li> -->
                   <li><a href="contact-us.php">Contact Us</a></li>
                 </ul>
               </div>
